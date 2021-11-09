@@ -39,7 +39,8 @@ app.whenReady().then(() => {
 
     const fileName = encodeURIComponent(file.split(/\/|\\/).pop());
 
-    server.get(`/${fileName}`, (req, res) => {
+    // Workaround for file route throwing 404 for both escaped and non-escaped paths
+    server.get(`*`, (req, res) => {
 
       res.sendFile(file, (err) => {
 

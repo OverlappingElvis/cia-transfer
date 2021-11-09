@@ -1,6 +1,6 @@
 {
   "name": "cia-transfer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-platform front end for transferring CIA files to the Nintendo 3DS via FBI.",
   "main": "index.js",
   "scripts": {
