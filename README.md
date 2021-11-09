@@ -4,9 +4,9 @@ Cross-platform front end for remotely installing CIA files using the [FBI title 
 
 # Usage
 
-## From binaries (experimental)
+## Binaries (experimental)
 
-See releases for latest builds.
+See the [latest release](https://github.com/OverlappingElvis/cia-transfer/releases/tag/v1.0.0) for builds for your platform.
 
 ## From source
 
