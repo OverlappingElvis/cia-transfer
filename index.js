@@ -34,7 +34,7 @@ app.whenReady().then(() => {
 
     if (!ip || !file) {
 
-      return ipcMain.send('error');
+      return win.webContents.send('error');
     }
 
     const fileName = encodeURIComponent(file.split(/\/|\\/).pop());
